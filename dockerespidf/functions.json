@@ -1,0 +1,2093 @@
+[
+ {
+  "name": "pxt::afterProgramPage",
+  "argsFmt": [
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::dumpDmesg",
+  "argsFmt": [
+   "V"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::mkAction",
+  "argsFmt": [
+   "_Action",
+   "I",
+   "_RefAction"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::templateHash",
+  "argsFmt": [
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::programHash",
+  "argsFmt": [
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::programName",
+  "argsFmt": [
+   "_BoxedString"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::programSize",
+  "argsFmt": [
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::getNumGlobals",
+  "argsFmt": [
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::mkClassInstance",
+  "argsFmt": [
+   "_RefRecord",
+   "_VTable"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::debugMemLeaks",
+  "argsFmt": [
+   "V"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::anyPrint",
+  "argsFmt": [
+   "V",
+   "T"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::getConfig",
+  "argsFmt": [
+   "I",
+   "I",
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::toInt",
+  "argsFmt": [
+   "I",
+   "N"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::toUInt",
+  "argsFmt": [
+   "I",
+   "N"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::toDouble",
+  "argsFmt": [
+   "_NUMBER",
+   "N"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::toFloat",
+  "argsFmt": [
+   "F",
+   "N"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::fromDouble",
+  "argsFmt": [
+   "N",
+   "_NUMBER"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::fromFloat",
+  "argsFmt": [
+   "N",
+   "F"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::fromInt",
+  "argsFmt": [
+   "N",
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::fromUInt",
+  "argsFmt": [
+   "N",
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::fromBool",
+  "argsFmt": [
+   "T",
+   "B"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::eq_bool",
+  "argsFmt": [
+   "B",
+   "T",
+   "T"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::eqq_bool",
+  "argsFmt": [
+   "B",
+   "T",
+   "T"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::failedCast",
+  "argsFmt": [
+   "V",
+   "T",
+   "_void"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::missingProperty",
+  "argsFmt": [
+   "V",
+   "T"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::incr",
+  "argsFmt": [
+   "T",
+   "T"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::decr",
+  "argsFmt": [
+   "V",
+   "T"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::string_inline_ascii_vt",
+  "argsFmt": [],
+  "value": null
+ },
+ {
+  "name": "pxt::string_inline_utf8_vt",
+  "argsFmt": [],
+  "value": null
+ },
+ {
+  "name": "pxt::string_cons_vt",
+  "argsFmt": [],
+  "value": null
+ },
+ {
+  "name": "pxt::string_skiplist16_vt",
+  "argsFmt": [],
+  "value": null
+ },
+ {
+  "name": "pxt::string_skiplist16_packed_vt",
+  "argsFmt": [],
+  "value": null
+ },
+ {
+  "name": "pxt::buffer_vt",
+  "argsFmt": [],
+  "value": null
+ },
+ {
+  "name": "pxt::number_vt",
+  "argsFmt": [],
+  "value": null
+ },
+ {
+  "name": "pxt::RefAction_vtable",
+  "argsFmt": [],
+  "value": null
+ },
+ {
+  "name": "pxt::RefRecord_destroy",
+  "argsFmt": [
+   "V",
+   "_RefRecord"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::RefRecord_print",
+  "argsFmt": [
+   "V",
+   "_RefRecord"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::RefRecord_scan",
+  "argsFmt": [
+   "V",
+   "_RefRecord"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::RefRecord_gcsize",
+  "argsFmt": [
+   "I",
+   "_RefRecord"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::dumpPerfCounters",
+  "argsFmt": [
+   "V"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::startPerfCounter",
+  "argsFmt": [
+   "V",
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::stopPerfCounter",
+  "argsFmt": [
+   "V",
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "numops::toString",
+  "argsFmt": [
+   "S",
+   "T"
+  ],
+  "value": null
+ },
+ {
+  "name": "numops::toBool",
+  "argsFmt": [
+   "I",
+   "T"
+  ],
+  "value": null
+ },
+ {
+  "name": "numops::toBoolDecr",
+  "argsFmt": [
+   "I",
+   "T"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxtrt::mkMap",
+  "argsFmt": [
+   "_RefMap"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxtrt::mapGetByString",
+  "argsFmt": [
+   "T",
+   "_RefMap",
+   "S"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxtrt::lookupMapKey",
+  "argsFmt": [
+   "I",
+   "S"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxtrt::mapGet",
+  "argsFmt": [
+   "T",
+   "_RefMap",
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxtrt::mapSetByString",
+  "argsFmt": [
+   "V",
+   "_RefMap",
+   "S",
+   "T"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxtrt::mapSet",
+  "argsFmt": [
+   "V",
+   "_RefMap",
+   "I",
+   "T"
+  ],
+  "value": null
+ },
+ {
+  "name": "String_::compare",
+  "argsFmt": [
+   "I",
+   "S",
+   "S"
+  ],
+  "value": null
+ },
+ {
+  "name": "Array_::mk",
+  "argsFmt": [
+   "_RefCollection"
+  ],
+  "value": null
+ },
+ {
+  "name": "Array_::length",
+  "argsFmt": [
+   "I",
+   "_RefCollection"
+  ],
+  "value": null
+ },
+ {
+  "name": "Array_::setLength",
+  "argsFmt": [
+   "V",
+   "_RefCollection",
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "Array_::push",
+  "argsFmt": [
+   "V",
+   "_RefCollection",
+   "T"
+  ],
+  "value": null
+ },
+ {
+  "name": "Array_::pop",
+  "argsFmt": [
+   "T",
+   "_RefCollection"
+  ],
+  "value": null
+ },
+ {
+  "name": "Array_::getAt",
+  "argsFmt": [
+   "T",
+   "_RefCollection",
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "Array_::setAt",
+  "argsFmt": [
+   "V",
+   "_RefCollection",
+   "I",
+   "T"
+  ],
+  "value": null
+ },
+ {
+  "name": "Array_::removeAt",
+  "argsFmt": [
+   "T",
+   "_RefCollection",
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "Array_::insertAt",
+  "argsFmt": [
+   "V",
+   "_RefCollection",
+   "I",
+   "T"
+  ],
+  "value": null
+ },
+ {
+  "name": "Array_::indexOf",
+  "argsFmt": [
+   "I",
+   "_RefCollection",
+   "T",
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "Array_::removeElement",
+  "argsFmt": [
+   "B",
+   "_RefCollection",
+   "T"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::deleteRefObject",
+  "argsFmt": [
+   "V",
+   "_RefObject"
+  ],
+  "value": null
+ },
+ {
+  "name": "Array_::isArray",
+  "argsFmt": [
+   "B",
+   "T"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxtrt::keysOf",
+  "argsFmt": [
+   "_RefCollection",
+   "T"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxtrt::mapDeleteByString",
+  "argsFmt": [
+   "T",
+   "_RefMap",
+   "S"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::getGCStats",
+  "argsFmt": [
+   "_Buffer"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::popThreadContext",
+  "argsFmt": [
+   "V",
+   "_ThreadContext"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::pushThreadContext",
+  "argsFmt": [
+   "_ThreadContext",
+   "_void",
+   "_void"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::seedRandom",
+  "argsFmt": [
+   "V",
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::seedAddRandom",
+  "argsFmt": [
+   "V",
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "String_::mkEmpty",
+  "argsFmt": [
+   "S"
+  ],
+  "value": null
+ },
+ {
+  "name": "String_::fromCharCode",
+  "argsFmt": [
+   "S",
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "String_::charCodeAt",
+  "argsFmt": [
+   "N",
+   "S",
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "String_::charAt",
+  "argsFmt": [
+   "S",
+   "S",
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "String_::concat",
+  "argsFmt": [
+   "S",
+   "S",
+   "S"
+  ],
+  "value": null
+ },
+ {
+  "name": "String_::length",
+  "argsFmt": [
+   "I",
+   "S"
+  ],
+  "value": null
+ },
+ {
+  "name": "String_::toNumber",
+  "argsFmt": [
+   "N",
+   "S"
+  ],
+  "value": null
+ },
+ {
+  "name": "String_::substr",
+  "argsFmt": [
+   "S",
+   "S",
+   "I",
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "String_::indexOf",
+  "argsFmt": [
+   "I",
+   "S",
+   "S",
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "String_::includes",
+  "argsFmt": [
+   "I",
+   "S",
+   "S",
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "Boolean_::bang",
+  "argsFmt": [
+   "B",
+   "B"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::switch_eq",
+  "argsFmt": [
+   "B",
+   "T",
+   "T"
+  ],
+  "value": null
+ },
+ {
+  "name": "numops::adds",
+  "argsFmt": [
+   "N",
+   "N",
+   "N"
+  ],
+  "value": null
+ },
+ {
+  "name": "numops::subs",
+  "argsFmt": [
+   "N",
+   "N",
+   "N"
+  ],
+  "value": null
+ },
+ {
+  "name": "numops::muls",
+  "argsFmt": [
+   "N",
+   "N",
+   "N"
+  ],
+  "value": null
+ },
+ {
+  "name": "numops::div",
+  "argsFmt": [
+   "N",
+   "N",
+   "N"
+  ],
+  "value": null
+ },
+ {
+  "name": "numops::mod",
+  "argsFmt": [
+   "N",
+   "N",
+   "N"
+  ],
+  "value": null
+ },
+ {
+  "name": "numops::lsls",
+  "argsFmt": [
+   "N",
+   "N",
+   "N"
+  ],
+  "value": null
+ },
+ {
+  "name": "numops::lsrs",
+  "argsFmt": [
+   "N",
+   "N",
+   "N"
+  ],
+  "value": null
+ },
+ {
+  "name": "numops::asrs",
+  "argsFmt": [
+   "N",
+   "N",
+   "N"
+  ],
+  "value": null
+ },
+ {
+  "name": "numops::eors",
+  "argsFmt": [
+   "N",
+   "N",
+   "N"
+  ],
+  "value": null
+ },
+ {
+  "name": "numops::orrs",
+  "argsFmt": [
+   "N",
+   "N",
+   "N"
+  ],
+  "value": null
+ },
+ {
+  "name": "numops::bnot",
+  "argsFmt": [
+   "N",
+   "N"
+  ],
+  "value": null
+ },
+ {
+  "name": "numops::ands",
+  "argsFmt": [
+   "N",
+   "N",
+   "N"
+  ],
+  "value": null
+ },
+ {
+  "name": "numops::lt_bool",
+  "argsFmt": [
+   "B",
+   "N",
+   "N"
+  ],
+  "value": null
+ },
+ {
+  "name": "numops::le",
+  "argsFmt": [
+   "N",
+   "N",
+   "N"
+  ],
+  "value": null
+ },
+ {
+  "name": "numops::lt",
+  "argsFmt": [
+   "N",
+   "N",
+   "N"
+  ],
+  "value": null
+ },
+ {
+  "name": "numops::ge",
+  "argsFmt": [
+   "N",
+   "N",
+   "N"
+  ],
+  "value": null
+ },
+ {
+  "name": "numops::gt",
+  "argsFmt": [
+   "N",
+   "N",
+   "N"
+  ],
+  "value": null
+ },
+ {
+  "name": "numops::eq",
+  "argsFmt": [
+   "N",
+   "N",
+   "N"
+  ],
+  "value": null
+ },
+ {
+  "name": "numops::neq",
+  "argsFmt": [
+   "N",
+   "N",
+   "N"
+  ],
+  "value": null
+ },
+ {
+  "name": "numops::eqq",
+  "argsFmt": [
+   "N",
+   "N",
+   "N"
+  ],
+  "value": null
+ },
+ {
+  "name": "numops::neqq",
+  "argsFmt": [
+   "N",
+   "N",
+   "N"
+  ],
+  "value": null
+ },
+ {
+  "name": "Math_::pow",
+  "argsFmt": [
+   "N",
+   "N",
+   "N"
+  ],
+  "value": null
+ },
+ {
+  "name": "Math_::random",
+  "argsFmt": [
+   "N"
+  ],
+  "value": null
+ },
+ {
+  "name": "Math_::randomRange",
+  "argsFmt": [
+   "N",
+   "N",
+   "N"
+  ],
+  "value": null
+ },
+ {
+  "name": "Math_::log",
+  "argsFmt": [
+   "N",
+   "N"
+  ],
+  "value": null
+ },
+ {
+  "name": "Math_::log10",
+  "argsFmt": [
+   "N",
+   "N"
+  ],
+  "value": null
+ },
+ {
+  "name": "Math_::floor",
+  "argsFmt": [
+   "N",
+   "N"
+  ],
+  "value": null
+ },
+ {
+  "name": "Math_::ceil",
+  "argsFmt": [
+   "N",
+   "N"
+  ],
+  "value": null
+ },
+ {
+  "name": "Math_::trunc",
+  "argsFmt": [
+   "N",
+   "N"
+  ],
+  "value": null
+ },
+ {
+  "name": "Math_::round",
+  "argsFmt": [
+   "N",
+   "N"
+  ],
+  "value": null
+ },
+ {
+  "name": "Math_::imul",
+  "argsFmt": [
+   "I",
+   "I",
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "Math_::idiv",
+  "argsFmt": [
+   "I",
+   "I",
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::ptrOfLiteral",
+  "argsFmt": [
+   "_void",
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::programSize",
+  "argsFmt": [
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::deepSleep",
+  "argsFmt": [
+   "V"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::getConfig",
+  "argsFmt": [
+   "I",
+   "I",
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxtrt::ldlocRef",
+  "argsFmt": [
+   "T",
+   "_RefRefLocal"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxtrt::stlocRef",
+  "argsFmt": [
+   "V",
+   "_RefRefLocal",
+   "T"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxtrt::mklocRef",
+  "argsFmt": [
+   "_RefRefLocal"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxtrt::stclo",
+  "argsFmt": [
+   "_RefAction",
+   "_RefAction",
+   "I",
+   "T"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxtrt::panic",
+  "argsFmt": [
+   "V",
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxtrt::emptyToNull",
+  "argsFmt": [
+   "S",
+   "S"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxtrt::ptrToBool",
+  "argsFmt": [
+   "I",
+   "T"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxtrt::getGlobalsPtr",
+  "argsFmt": [
+   "_void"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxtrt::runtimeWarning",
+  "argsFmt": [
+   "V",
+   "S"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::valType",
+  "argsFmt": [
+   "_ValType",
+   "T"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::typeOf",
+  "argsFmt": [
+   "S",
+   "T"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::beginTry",
+  "argsFmt": [
+   "_TryFrame"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::endTry",
+  "argsFmt": [
+   "V"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::throwValue",
+  "argsFmt": [
+   "V",
+   "T"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::getThrownValue",
+  "argsFmt": [
+   "T"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::endFinally",
+  "argsFmt": [
+   "V"
+  ],
+  "value": null
+ },
+ {
+  "name": "Math_::log2",
+  "argsFmt": [
+   "N",
+   "N"
+  ],
+  "value": null
+ },
+ {
+  "name": "Math_::exp",
+  "argsFmt": [
+   "N",
+   "N"
+  ],
+  "value": null
+ },
+ {
+  "name": "Math_::tanh",
+  "argsFmt": [
+   "N",
+   "N"
+  ],
+  "value": null
+ },
+ {
+  "name": "Math_::sinh",
+  "argsFmt": [
+   "N",
+   "N"
+  ],
+  "value": null
+ },
+ {
+  "name": "Math_::cosh",
+  "argsFmt": [
+   "N",
+   "N"
+  ],
+  "value": null
+ },
+ {
+  "name": "Math_::atanh",
+  "argsFmt": [
+   "N",
+   "N"
+  ],
+  "value": null
+ },
+ {
+  "name": "Math_::asinh",
+  "argsFmt": [
+   "N",
+   "N"
+  ],
+  "value": null
+ },
+ {
+  "name": "Math_::acosh",
+  "argsFmt": [
+   "N",
+   "N"
+  ],
+  "value": null
+ },
+ {
+  "name": "Math_::atan2",
+  "argsFmt": [
+   "N",
+   "N",
+   "N"
+  ],
+  "value": null
+ },
+ {
+  "name": "Math_::tan",
+  "argsFmt": [
+   "N",
+   "N"
+  ],
+  "value": null
+ },
+ {
+  "name": "Math_::sin",
+  "argsFmt": [
+   "N",
+   "N"
+  ],
+  "value": null
+ },
+ {
+  "name": "Math_::cos",
+  "argsFmt": [
+   "N",
+   "N"
+  ],
+  "value": null
+ },
+ {
+  "name": "Math_::atan",
+  "argsFmt": [
+   "N",
+   "N"
+  ],
+  "value": null
+ },
+ {
+  "name": "Math_::asin",
+  "argsFmt": [
+   "N",
+   "N"
+  ],
+  "value": null
+ },
+ {
+  "name": "Math_::acos",
+  "argsFmt": [
+   "N",
+   "N"
+  ],
+  "value": null
+ },
+ {
+  "name": "Math_::sqrt",
+  "argsFmt": [
+   "N",
+   "N"
+  ],
+  "value": null
+ },
+ {
+  "name": "BufferMethods::getBytes",
+  "argsFmt": [
+   "_uint8_t",
+   "_Buffer"
+  ],
+  "value": null
+ },
+ {
+  "name": "BufferMethods::getByte",
+  "argsFmt": [
+   "I",
+   "_Buffer",
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "BufferMethods::setByte",
+  "argsFmt": [
+   "V",
+   "_Buffer",
+   "I",
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "BufferMethods::getUint8",
+  "argsFmt": [
+   "I",
+   "_Buffer",
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "BufferMethods::isReadOnly",
+  "argsFmt": [
+   "B",
+   "_Buffer"
+  ],
+  "value": null
+ },
+ {
+  "name": "BufferMethods::setUint8",
+  "argsFmt": [
+   "V",
+   "_Buffer",
+   "I",
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "BufferMethods::setNumber",
+  "argsFmt": [
+   "V",
+   "_Buffer",
+   "I",
+   "I",
+   "N"
+  ],
+  "value": null
+ },
+ {
+  "name": "BufferMethods::getNumber",
+  "argsFmt": [
+   "N",
+   "_Buffer",
+   "I",
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "BufferMethods::length",
+  "argsFmt": [
+   "I",
+   "_Buffer"
+  ],
+  "value": null
+ },
+ {
+  "name": "BufferMethods::fill",
+  "argsFmt": [
+   "V",
+   "_Buffer",
+   "I",
+   "I",
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "BufferMethods::slice",
+  "argsFmt": [
+   "_Buffer",
+   "_Buffer",
+   "I",
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "BufferMethods::shift",
+  "argsFmt": [
+   "V",
+   "_Buffer",
+   "I",
+   "I",
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "BufferMethods::toString",
+  "argsFmt": [
+   "S",
+   "_Buffer"
+  ],
+  "value": null
+ },
+ {
+  "name": "BufferMethods::toHex",
+  "argsFmt": [
+   "S",
+   "_Buffer"
+  ],
+  "value": null
+ },
+ {
+  "name": "BufferMethods::rotate",
+  "argsFmt": [
+   "V",
+   "_Buffer",
+   "I",
+   "I",
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "BufferMethods::write",
+  "argsFmt": [
+   "V",
+   "_Buffer",
+   "I",
+   "_Buffer"
+  ],
+  "value": null
+ },
+ {
+  "name": "BufferMethods::hash",
+  "argsFmt": [
+   "I",
+   "_Buffer",
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "control::createBuffer",
+  "argsFmt": [
+   "_Buffer",
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "control::createBufferFromUTF8",
+  "argsFmt": [
+   "_Buffer",
+   "S"
+  ],
+  "value": null
+ },
+ {
+  "name": "loops::forever",
+  "argsFmt": [
+   "V",
+   "_Action"
+  ],
+  "value": null
+ },
+ {
+  "name": "loops::pause",
+  "argsFmt": [
+   "V",
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "control::millis",
+  "argsFmt": [
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "control::micros",
+  "argsFmt": [
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "control::internalOnEvent",
+  "argsFmt": [
+   "V",
+   "I",
+   "I",
+   "_Action",
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "control::reset",
+  "argsFmt": [
+   "V"
+  ],
+  "value": null
+ },
+ {
+  "name": "control::waitMicros",
+  "argsFmt": [
+   "V",
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "control::runInParallel",
+  "argsFmt": [
+   "V",
+   "_Action"
+  ],
+  "value": null
+ },
+ {
+  "name": "control::waitForEvent",
+  "argsFmt": [
+   "V",
+   "I",
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "control::deviceSerialNumber",
+  "argsFmt": [
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "control::deviceLongSerialNumber",
+  "argsFmt": [
+   "_Buffer"
+  ],
+  "value": null
+ },
+ {
+  "name": "control::__log",
+  "argsFmt": [
+   "V",
+   "I",
+   "S"
+  ],
+  "value": null
+ },
+ {
+  "name": "control::dmesgValue",
+  "argsFmt": [
+   "V",
+   "T"
+  ],
+  "value": null
+ },
+ {
+  "name": "control::gc",
+  "argsFmt": [
+   "V"
+  ],
+  "value": null
+ },
+ {
+  "name": "control::heapDump",
+  "argsFmt": [
+   "V"
+  ],
+  "value": null
+ },
+ {
+  "name": "control::setDebugFlags",
+  "argsFmt": [
+   "V",
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "control::heapSnapshot",
+  "argsFmt": [
+   "V"
+  ],
+  "value": null
+ },
+ {
+  "name": "control::profilingEnabled",
+  "argsFmt": [
+   "B"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::getPin",
+  "argsFmt": [
+   "_DevicePin",
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::getPinCfg",
+  "argsFmt": [
+   "_DevicePin",
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::lookupPin",
+  "argsFmt": [
+   "_DevicePin",
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::lookupPinCfg",
+  "argsFmt": [
+   "_DevicePin",
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "pins::pinByCfg",
+  "argsFmt": [
+   "_DigitalInOutPin",
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "pins::createBuffer",
+  "argsFmt": [
+   "_Buffer",
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "control::setWatchdog",
+  "argsFmt": [
+   "V",
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "control::feedWatchdog",
+  "argsFmt": [
+   "V"
+  ],
+  "value": null
+ },
+ {
+  "name": "DigitalInOutPinMethods::digitalRead",
+  "argsFmt": [
+   "B",
+   "_DigitalInOutPin"
+  ],
+  "value": null
+ },
+ {
+  "name": "DigitalInOutPinMethods::digitalWrite",
+  "argsFmt": [
+   "V",
+   "_DigitalInOutPin",
+   "B"
+  ],
+  "value": null
+ },
+ {
+  "name": "DigitalInOutPinMethods::onPulsed",
+  "argsFmt": [
+   "V",
+   "_DigitalInOutPin",
+   "I",
+   "_Action"
+  ],
+  "value": null
+ },
+ {
+  "name": "DigitalInOutPinMethods::onEvent",
+  "argsFmt": [
+   "V",
+   "_DigitalInOutPin",
+   "I",
+   "_Action"
+  ],
+  "value": null
+ },
+ {
+  "name": "DigitalInOutPinMethods::pulseIn",
+  "argsFmt": [
+   "I",
+   "_DigitalInOutPin",
+   "I",
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "DigitalInOutPinMethods::setPull",
+  "argsFmt": [
+   "V",
+   "_DigitalInOutPin",
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::readButtonMultiplexer",
+  "argsFmt": [
+   "I",
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "control::raiseEvent",
+  "argsFmt": [
+   "V",
+   "I",
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "control::allocateNotifyEvent",
+  "argsFmt": [
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "control::deviceDalVersion",
+  "argsFmt": [
+   "S"
+  ],
+  "value": null
+ },
+ {
+  "name": "control::dmesg",
+  "argsFmt": [
+   "V",
+   "S"
+  ],
+  "value": null
+ },
+ {
+  "name": "control::_ramSize",
+  "argsFmt": [
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "control::isUSBInitialized",
+  "argsFmt": [
+   "B"
+  ],
+  "value": null
+ },
+ {
+  "name": "serial::writeDmesg",
+  "argsFmt": [
+   "V"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::pressureLevelByButtonId",
+  "argsFmt": [
+   "I",
+   "I",
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::setupButton",
+  "argsFmt": [
+   "V",
+   "I",
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::op_stloc",
+  "argsFmt": [
+   "V",
+   "_FiberContext",
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::op_ldloc",
+  "argsFmt": [
+   "V",
+   "_FiberContext",
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::op_ldcap",
+  "argsFmt": [
+   "V",
+   "_FiberContext",
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::op_bitconv",
+  "argsFmt": [
+   "V",
+   "_FiberContext",
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::op_stglb",
+  "argsFmt": [
+   "V",
+   "_FiberContext",
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::op_ldglb",
+  "argsFmt": [
+   "V",
+   "_FiberContext",
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::op_ldlit",
+  "argsFmt": [
+   "V",
+   "_FiberContext",
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::op_ldnumber",
+  "argsFmt": [
+   "V",
+   "_FiberContext",
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::op_jmp",
+  "argsFmt": [
+   "V",
+   "_FiberContext",
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::op_jmpz",
+  "argsFmt": [
+   "V",
+   "_FiberContext",
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::op_jmpnz",
+  "argsFmt": [
+   "V",
+   "_FiberContext",
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::op_newobj",
+  "argsFmt": [
+   "V",
+   "_FiberContext",
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::op_ldfld",
+  "argsFmt": [
+   "V",
+   "_FiberContext",
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::op_stfld",
+  "argsFmt": [
+   "V",
+   "_FiberContext",
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::op_callproc",
+  "argsFmt": [
+   "V",
+   "_FiberContext",
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::op_callind",
+  "argsFmt": [
+   "V",
+   "_FiberContext",
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::op_ret",
+  "argsFmt": [
+   "V",
+   "_FiberContext",
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::op_pop",
+  "argsFmt": [
+   "V",
+   "_FiberContext",
+   "_"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::op_popmany",
+  "argsFmt": [
+   "V",
+   "_FiberContext",
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::op_pushmany",
+  "argsFmt": [
+   "V",
+   "_FiberContext",
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::op_push",
+  "argsFmt": [
+   "V",
+   "_FiberContext",
+   "_"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::op_ldspecial",
+  "argsFmt": [
+   "V",
+   "_FiberContext",
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::op_ldint",
+  "argsFmt": [
+   "V",
+   "_FiberContext",
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::op_ldintneg",
+  "argsFmt": [
+   "V",
+   "_FiberContext",
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::op_try",
+  "argsFmt": [
+   "V",
+   "_FiberContext",
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::op_calliface",
+  "argsFmt": [
+   "V",
+   "_FiberContext",
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::op_callget",
+  "argsFmt": [
+   "V",
+   "_FiberContext",
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::op_callset",
+  "argsFmt": [
+   "V",
+   "_FiberContext",
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::op_mapget",
+  "argsFmt": [
+   "V",
+   "_FiberContext",
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::op_mapset",
+  "argsFmt": [
+   "V",
+   "_FiberContext",
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::op_checkinst",
+  "argsFmt": [
+   "V",
+   "_FiberContext",
+   "I"
+  ],
+  "value": null
+ },
+ {
+  "name": "pxt::updateScreen",
+  "argsFmt": [
+   "V",
+   "_Image"
+  ],
+  "value": null
+ },
+ {
+  "name": "crypto::_sha256",
+  "argsFmt": [
+   "_Buffer",
+   "_RefCollection"
+  ],
+  "value": null
+ },
+ {
+  "name": "settings::_set",
+  "argsFmt": [
+   "I",
+   "S",
+   "_Buffer"
+  ],
+  "value": null
+ },
+ {
+  "name": "settings::_remove",
+  "argsFmt": [
+   "I",
+   "S"
+  ],
+  "value": null
+ },
+ {
+  "name": "settings::_exists",
+  "argsFmt": [
+   "B",
+   "S"
+  ],
+  "value": null
+ },
+ {
+  "name": "settings::_get",
+  "argsFmt": [
+   "_Buffer",
+   "S"
+  ],
+  "value": null
+ },
+ {
+  "name": "settings::_userClean",
+  "argsFmt": [
+   "V"
+  ],
+  "value": null
+ },
+ {
+  "name": "settings::_list",
+  "argsFmt": [
+   "_RefCollection",
+   "S"
+  ],
+  "value": null
+ }
+]

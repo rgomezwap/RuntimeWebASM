@@ -1,0 +1,11 @@
+{
+	"main": "index.html",
+	"name": "Arcade Makecode VM runtime",
+	"description": "Arcade Makecode VM runtime",
+	"window": {
+		"title": "Arcade Makecode VM runtime",
+		"toolbar": true,
+		"frame": true,
+		"position": "center"
+	}
+}

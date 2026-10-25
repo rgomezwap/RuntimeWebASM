@@ -1,0 +1,153 @@
+<!-- Inddex.html, donde empieza la pagina web que se carga en la ventana de la APP de NW.js -->
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<style>
+		/* Estilo para escalar el canvas sin que se pixele de forma borrosa */
+		#screenCanvas
+			{
+			image-rendering:		pixelated;
+			image-rendering:		crisp-edges;
+			border:					2px solid #333;
+			background-color:		#000;
+			}	
+		#TFTCanvas
+			{
+			image-rendering:		pixelated;
+			image-rendering:		crisp-edges;
+			border:					2px solid #333;
+			background-color:		#000;
+			}
+	</style>
+	
+</head>
+
+<!--	margin 0 lo necesita moprhic para calcular bien el raton,
+		y overflow:hidden elimina los scrollbars
+		si queremos un fondo en el body para marcar todos los elementos -> <body style="margin:0; overflow:hidden; background-color:rgb(128,0,0);">
+-->
+<body style=" margin:0; overflow:hidden; font-family: Arial,sans-serif; font-size: 12px; font-weight: bold; ">
+	
+	<!-- Creamos variables globales de javascript y configuracion global de la APP -->
+	<script type="text/javascript">
+	
+		/*	si queremos ver todo el LOG desde que arranca el HTML activamos este comentario ...
+			esto sirve para indicar al LOG por consola que empieze a mostrar
+		*/
+		console.log('RIC debug : -----LOGSTART-----'); console.log('RIC debug : -----'); console.log('RIC debug : -----'); console.log('RIC debug : -----'); console.log('RIC debug : -----'); console.log('RIC debug : -----'); console.log('RIC debug : -----');
+		
+		// variable global para indicar la plataforma en que se esta ejecutando, por defecto si no esta consideraremos nw.js
+		var plataforma='winnwjs';
+				
+		// Titulo de la pagina
+		document.title='Arcade Makecode VM runtime v.0.1';
+		
+		// tamaño de la ventana APP, al final quiero que internamente tengamos el client area 1024 pixels de ancho ...
+		var clientanchodeseado=1024;		// si la pantalla del ordenador es 1366, 1366-16=1350
+		var clientaltodeseado=700;
+		var mainmorphicalto=0;				// OJO solo el Morphic -> si es cero coje todo al alto de la ventana y si no el que indicamos ...
+				
+	</script>
+	
+	
+		<script type="text/javascript" src="script.js"></script>
+		
+	<!-- CODIGO START DE LA APP -->
+	<script type="text/javascript">
+		
+		// 2a. funcion javascript cuando forzamos al resize de la ventana para que todo este al tamaño deseado
+		// aqui empieza el programa IDE en si ...
+		// y siempre que se haga resize tambien se pasa por aqui ...
+		window.onresize=function(event)
+		{		
+			
+			console.log('RIC debug : Start outter window APP resize event to (' + window.outerWidth + ' x ' + window.outerHeight + ')');
+			console.log('RIC debug : Start inner window APP resize event to (' + window.innerWidth + ' x ' + window.innerHeight + ')');
+			
+			// empezamos la APP javascript			
+			StartTest1();
+			
+		};
+		
+		// 1er javascript que se ejeucta cuando ya se ha cargado toda la pagina y todos los modulos ...
+		// cosas basicas de definir el tamaño de la ventana de NW.JS
+		window.onload=function()
+		{
+			// para saber las dimensiones de la pantalla como no es trivial con multimonitor y demas hacemos asi ...
+			// aunque no me funciono y hice lo facil
+			// Fixes dual-screen position                         Most browsers      	Firefox
+			//var dualScreenLeft = window.screenLeft != undefined ? window.screenLeft : screen.left;
+			//var dualScreenTop  = window.screenTop  != undefined ? window.screenTop  : screen.top;
+			var dualScreenLeft=0;
+			var dualScreenTop=0;
+			//var width=window.innerWidth ? window.innerWidth : document.documentElement.clientWidth ? document.documentElement.clientWidth : screen.width;
+			//var height = window.innerHeight ? window.innerHeight : document.documentElement.clientHeight ? document.documentElement.clientHeight : screen.height;
+			var width=screen.width;
+			var height=screen.height;
+			
+			// definimos el tamaÃ±o de la ventana, en caso de NW.js el tamanyo de la ventana del programa
+			// para que quede centrado tambien hay que poner estos valores en package.json
+			//var w=1152; var h=720;						// estandard de Snap4Arduino
+			//var w=960+12; var h=540+24+6;					// tamanyo movil LANDVO octacore 960x540, mas 6 pix. borde horiz. y 6 pix. borde inf y 24 pix. borde sup.
+			//var w=1024; var h=552;						// simular tableta de Pixi3 que me dio Caio
+			//var w=1280; var h=800;						// simular tableta Windows 10 de El Punt
+			//var w=width; var h=height;					// hacemos que ocupe toda la pantalla para modos APP
+			var w=clientanchodeseado + 16;					// sumo +16 porque asi consigo el inner que deseamos !!! a mano :-(
+			if (clientaltodeseado > height) clientaltodeseado=(950+7);			// reajustamos
+			var h=clientaltodeseado;
+			if ( (h+70) > height )							// si no tenemos una pantalla tan grande !!!
+				{
+				h=600; if (h > height) { h=Math.floor((height - 100) / 10) * 10; }				// la altura es alto pantalla - 100px
+				//w=Math.floor( ((h * 1280) / 800) / 10) * 10;		// el ancho es relacion de aspecto de 1280x800
+				}
+			if (w > width)									// si no tenemos una pantalla tan grande !!!
+				{
+				w=1350 + 16;
+				}				
+			console.log('RIC debug : Pantalla ordenador (w x h) -> ' + width + ' x ' + height);
+			console.log('RIC debug : Ventana APP ordenador (w x h) -> ' + w + ' x ' + h);
+			if ((window.outerWidth == w) && (window.outerHeight == h))
+				{
+				// si el tamaÃ±o al cual queremos hacer resize ya es el actual, entonces no hara nada y no se llamara al evento onresize
+				// y el programa quedaria parado, por ello lo forzamos
+				window.onresize();
+				}
+			else
+				{
+				window.resizeTo(w,h);
+				}
+			
+			// centramos la ventana en la pantalla del ordenador
+			var left=((width / 2) - (w / 2)) + dualScreenLeft;
+			//var top=((height / 2) - (h / 2)) + dualScreenTop;
+			var top=20 + dualScreenTop;
+			window.moveTo(left,top);
+		
+		};
+		
+	</script>
+	
+	<div id="domidclientareadiv" style="background-color:rgb(255,255,255); display:flex;">
+	
+		<!-- AÑADIDO: Canvas de 160x120 para volcar el buffer de MakeCode -->
+		<!-- Puedes ajustar width/height en CSS (ej. width: 480px, height: 360px) para escalarlo en pantalla -->
+		<div style="width:500px; height:400px;">
+			<canvas id="screenCanvas" width="160" height="120" style="width: 480px; height: 360px; transform-origin: top left; transform: translateY(20px)"></canvas>
+		</div>
+		
+		<!-- creamos un DIV para definir en el layout HTML cuando ocupa el contenido, porque al rotarlo hace calculos erroneos -->		
+		<div style="width:500px; height:400px;">
+			<canvas id="TFTCanvas" width="128" height="160" style="width: 360px; height: 480px; transform-origin: top left; transform: translateY(380px) rotate(-90deg);"></canvas>
+		</div>
+		
+	</div>
+	
+</body>
+
+</html>
